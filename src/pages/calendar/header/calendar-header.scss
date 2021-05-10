@@ -1,0 +1,28 @@
+.calendar-nav{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding: 10px 0;
+    &__btn{
+        cursor: pointer;
+        text-align: center;
+        transition: color 0.3s ease;
+        margin: 0 20px;
+        &:hover{
+            color: #349df5;
+        }
+    }
+    &__current-month{
+        margin: 0 10px;
+        width: 200px;
+        text-align: center;
+    }
+    &__input{
+        text-align: center;
+        border: none;
+        outline: none;
+        font-size: 1.8rem;
+        width: 210px;
+    }
+}
